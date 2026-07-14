@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: movielist-api
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/movielist?createDatabaseIfNotExist=true&useSSL=false}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:umamahesh@2005}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    open-in-view: false
+
+jwt:
+  secret: ${JWT_SECRET:change-me-in-production-use-a-long-random-string-at-least-32-chars}
+  expiration-ms: 86400000
+
+tmdb:
+  api-key: ${TMDB_API_KEY:244085254ac4c05d3bb9d1ca7d6a4557}
+
+cors:
+  allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}

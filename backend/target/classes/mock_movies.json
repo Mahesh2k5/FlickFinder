@@ -1,0 +1,158 @@
+[
+  {
+    "id": 27205,
+    "title": "Inception",
+    "release_date": "2010-07-15",
+    "poster_path": "/oYu24ueLSgzFSGUTGLvo0jzApeR.jpg",
+    "overview": "Cobb, a skilled thief who steals valuable secrets from deep within the subconscious during the dream state.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 878, "name": "Science Fiction"}, {"id": 12, "name": "Adventure"}],
+    "keywords": {"keywords": [{"id": 10084, "name": "dream"}, {"id": 174092, "name": "heist"}]},
+    "credits": {
+      "cast": [{"name": "Leonardo DiCaprio"}, {"name": "Joseph Gordon-Levitt"}, {"name": "Elliot Page"}],
+      "crew": [{"job": "Director", "name": "Christopher Nolan"}]
+    }
+  },
+  {
+    "id": 155,
+    "title": "The Dark Knight",
+    "release_date": "2008-07-16",
+    "poster_path": "/qJ2tWGBbe78vC7ndyEUtH3HgRmM.jpg",
+    "overview": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 80, "name": "Crime"}, {"id": 18, "name": "Drama"}],
+    "keywords": {"keywords": [{"id": 849, "name": "dc comics"}, {"id": 9715, "name": "superhero"}]},
+    "credits": {
+      "cast": [{"name": "Christian Bale"}, {"name": "Heath Ledger"}, {"name": "Aaron Eckhart"}],
+      "crew": [{"job": "Director", "name": "Christopher Nolan"}]
+    }
+  },
+  {
+    "id": 157336,
+    "title": "Interstellar",
+    "release_date": "2014-11-05",
+    "poster_path": "/gEU2QvEw6Fg7vuygHg0qJ7JmcC2.jpg",
+    "overview": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel.",
+    "genres": [{"id": 12, "name": "Adventure"}, {"id": 18, "name": "Drama"}, {"id": 878, "name": "Science Fiction"}],
+    "keywords": {"keywords": [{"id": 3801, "name": "space travel"}, {"id": 9895, "name": "wormhole"}]},
+    "credits": {
+      "cast": [{"name": "Matthew McConaughey"}, {"name": "Anne Hathaway"}, {"name": "Jessica Chastain"}],
+      "crew": [{"job": "Director", "name": "Christopher Nolan"}]
+    }
+  },
+  {
+    "id": 19995,
+    "title": "Avatar",
+    "release_date": "2009-12-10",
+    "poster_path": "/kyeqW65oCK0nJAIv60J2rYyYsyL.jpg",
+    "overview": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 14, "name": "Fantasy"}],
+    "keywords": {"keywords": [{"id": 310, "name": "artificial intelligence"}, {"id": 409, "name": "alien"}]},
+    "credits": {
+      "cast": [{"name": "Sam Worthington"}, {"name": "Zoe Saldana"}, {"name": "Sigourney Weaver"}],
+      "crew": [{"job": "Director", "name": "James Cameron"}]
+    }
+  },
+  {
+    "id": 1726,
+    "title": "Iron Man",
+    "release_date": "2008-04-30",
+    "poster_path": "/78lUT34nLyhpXgX40b59i6u4Wuv.jpg",
+    "overview": "After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 878, "name": "Science Fiction"}, {"id": 12, "name": "Adventure"}],
+    "keywords": {"keywords": [{"id": 9715, "name": "superhero"}, {"id": 180547, "name": "marvel cinematic universe"}]},
+    "credits": {
+      "cast": [{"name": "Robert Downey Jr."}, {"name": "Terrence Howard"}, {"name": "Jeff Bridges"}],
+      "crew": [{"job": "Director", "name": "Jon Favreau"}]
+    }
+  },
+  {
+    "id": 557,
+    "title": "Spider-Man",
+    "release_date": "2002-05-01",
+    "poster_path": "/ghnd6ks29tBSNZ3foHw4S0hx6n5.jpg",
+    "overview": "After being bitten by a genetically altered spider, nerdy high school student Peter Parker is endowed with amazing powers.",
+    "genres": [{"id": 14, "name": "Fantasy"}, {"id": 28, "name": "Action"}],
+    "keywords": {"keywords": [{"id": 9715, "name": "superhero"}, {"id": 3290, "name": "spider bite"}]},
+    "credits": {
+      "cast": [{"name": "Tobey Maguire"}, {"name": "Willem Dafoe"}, {"name": "Kirsten Dunst"}],
+      "crew": [{"job": "Director", "name": "Sam Raimi"}]
+    }
+  },
+  {
+    "id": 597,
+    "title": "Titanic",
+    "release_date": "1997-11-18",
+    "poster_path": "/9xjg11ITN7ZuARvO36B6dCfK24V.jpg",
+    "overview": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, including her meeting Jack Dawson.",
+    "genres": [{"id": 18, "name": "Drama"}, {"id": 10749, "name": "Romance"}],
+    "keywords": {"keywords": [{"id": 2673, "name": "shipwreck"}, {"id": 9673, "name": "love story"}]},
+    "credits": {
+      "cast": [{"name": "Leonardo DiCaprio"}, {"name": "Kate Winslet"}, {"name": "Billy Zane"}],
+      "crew": [{"job": "Director", "name": "James Cameron"}]
+    }
+  },
+  {
+    "id": 680,
+    "title": "Pulp Fiction",
+    "release_date": "1994-09-10",
+    "poster_path": "/d5iIlvfj50o06hRxfg9rgbL21Zs.jpg",
+    "overview": "A burger-loving hitman, his philosophical partner, a drug-addled gangster's moll, and a washed-up boxer converge in four stories of violence and redemption.",
+    "genres": [{"id": 80, "name": "Crime"}, {"id": 18, "name": "Drama"}],
+    "keywords": {"keywords": [{"id": 6122, "name": "independent film"}, {"id": 240, "name": "hitman"}]},
+    "credits": {
+      "cast": [{"name": "John Travolta"}, {"name": "Samuel L. Jackson"}, {"name": "Uma Thurman"}],
+      "crew": [{"job": "Director", "name": "Quentin Tarantino"}]
+    }
+  },
+  {
+    "id": 603,
+    "title": "The Matrix",
+    "release_date": "1999-03-30",
+    "poster_path": "/f89U3w9nTNfehjvJRYSvjW8iREb.jpg",
+    "overview": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 878, "name": "Science Fiction"}],
+    "keywords": {"keywords": [{"id": 310, "name": "artificial intelligence"}, {"id": 2157, "name": "virtual reality"}]},
+    "credits": {
+      "cast": [{"name": "Keanu Reeves"}, {"name": "Laurence Fishburne"}, {"name": "Carrie-Anne Moss"}],
+      "crew": [{"job": "Director", "name": "Lana Wachowski"}]
+    }
+  },
+  {
+    "id": 98,
+    "title": "Gladiator",
+    "release_date": "2000-05-01",
+    "poster_path": "/ty80B44qnNRL40vgc721fs9FS6z.jpg",
+    "overview": "In the year 180, the death of Emperor Marcus Aurelius throws the Roman Empire into chaos. Maximus Decimus Meridius, one of the Roman army's most capable generals, is betrayed.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 12, "name": "Adventure"}, {"id": 18, "name": "Drama"}],
+    "keywords": {"keywords": [{"id": 90, "name": "roman empire"}, {"id": 1500, "name": "gladiator"}]},
+    "credits": {
+      "cast": [{"name": "Russell Crowe"}, {"name": "Joaquin Phoenix"}, {"name": "Connie Nielsen"}],
+      "crew": [{"job": "Director", "name": "Ridley Scott"}]
+    }
+  },
+  {
+    "id": 24428,
+    "title": "The Avengers",
+    "release_date": "2012-04-25",
+    "poster_path": "/RYMX2wc7VTH7n2oOUvD7v3cyA6.jpg",
+    "overview": "Loki, the brother of Thor, gains access to the unlimited power of the Tesseract and uses it to open a portal to Earth, unleashing an alien army.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 878, "name": "Science Fiction"}, {"id": 12, "name": "Adventure"}],
+    "keywords": {"keywords": [{"id": 9715, "name": "superhero"}, {"id": 180547, "name": "marvel cinematic universe"}]},
+    "credits": {
+      "cast": [{"name": "Robert Downey Jr."}, {"name": "Chris Evans"}, {"name": "Mark Ruffalo"}],
+      "crew": [{"job": "Director", "name": "Joss Whedon"}]
+    }
+  },
+  {
+    "id": 299534,
+    "title": "Avengers: Endgame",
+    "release_date": "2019-04-24",
+    "poster_path": "/or06450A0efFTQD1GDbgaQ5u4lJ.jpg",
+    "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more.",
+    "genres": [{"id": 28, "name": "Action"}, {"id": 878, "name": "Science Fiction"}, {"id": 12, "name": "Adventure"}],
+    "keywords": {"keywords": [{"id": 9715, "name": "superhero"}, {"id": 180547, "name": "marvel cinematic universe"}]},
+    "credits": {
+      "cast": [{"name": "Robert Downey Jr."}, {"name": "Chris Evans"}, {"name": "Mark Ruffalo"}],
+      "crew": [{"job": "Director", "name": "Anthony Russo"}]
+    }
+  }
+]
