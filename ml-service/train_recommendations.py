@@ -12,6 +12,7 @@ DB_HOST = os.environ.get("DB_HOST", "localhost")
 DB_USER = os.environ.get("DB_USER", "root")
 DB_PASSWORD = os.environ.get("DB_PASSWORD", "umamahesh@2005")
 DB_NAME = os.environ.get("DB_NAME", "movielist")
+DB_PORT = os.environ.get("DB_PORT", "3306")
 
 def connect_db():
     try:
@@ -19,7 +20,8 @@ def connect_db():
             host=DB_HOST,
             user=DB_USER,
             password=DB_PASSWORD,
-            database=DB_NAME
+            database=DB_NAME,
+            port=int(DB_PORT)
         )
     except Exception as e:
         print(f"Error connecting to database: {e}")
