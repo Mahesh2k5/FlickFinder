@@ -31,6 +31,12 @@ const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
         setInputValue(event.target.value);
     };
 
+    const handleKeyDown = (event) => {
+        if (event.key === 'Enter' && inputValue !== '') {
+            setSearchTerm(inputValue);
+        }
+    };
+
     return (
         <div className="movie-container">
             <div className="search-section">
@@ -53,6 +59,7 @@ const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
                     className="search"
                     value={inputValue}
                     onChange={handleSearch}
+                    onKeyDown={handleKeyDown}
                 />
             </div>
             
