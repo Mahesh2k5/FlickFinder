@@ -8,11 +8,11 @@ import sys
 import os
 
 # Database Configuration
-DB_HOST = os.environ.get("DB_HOST", "localhost")
-DB_USER = os.environ.get("DB_USER", "root")
-DB_PASSWORD = os.environ.get("DB_PASSWORD", "umamahesh@2005")
-DB_NAME = os.environ.get("DB_NAME", "movielist")
-DB_PORT = os.environ.get("DB_PORT", "3306")
+DB_HOST = os.environ.get("DB_HOST")
+DB_USER = os.environ.get("DB_USER")
+DB_PASSWORD = os.environ.get("DB_PASSWORD")
+DB_NAME = os.environ.get("DB_NAME")
+DB_PORT = os.environ.get("DB_PORT")
 
 def connect_db():
     try:

@@ -3,7 +3,7 @@ import { useAuth } from '../context/AuthContext';
 
 const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
     const { user, likedMovieIds, watchlistMovieIds, toggleLike, toggleWatchlist } = useAuth();
-    
+
     const categories = [
         { name: 'Marvel', query: 'marvel' },
         { name: 'Action', query: 'action' },
@@ -20,7 +20,7 @@ const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
             if (inputValue !== '') {
                 setSearchTerm(inputValue);
             }
-        }, 500);
+        }, 100);
 
         return () => {
             clearTimeout(handler);
@@ -62,31 +62,31 @@ const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
                     onKeyDown={handleKeyDown}
                 />
             </div>
-            
+
             <div className="movie-grid">
                 {movies.map((movie) => {
                     const movieId = movie.id || movie.imdbID;
                     const poster = movie.posterUrl || movie.Poster;
                     const title = movie.title || movie.Title;
                     const year = movie.year || movie.Year;
-                    
+
                     const isLiked = likedMovieIds.has(movie.id);
                     const isWatchlisted = watchlistMovieIds.has(movie.id);
 
                     return (
-                        <div 
-                            key={movieId} 
+                        <div
+                            key={movieId}
                             className="movie-card"
                             onClick={() => onCardClick && onCardClick(movie)}
                         >
                             <div className="movie-poster">
-                                <img 
-                                    src={poster && poster !== "N/A" ? poster : 'https://via.placeholder.com/300x450?text=No+Image'} 
-                                    alt={title} 
+                                <img
+                                    src={poster && poster !== "N/A" ? poster : 'https://via.placeholder.com/300x450?text=No+Image'}
+                                    alt={title}
                                 />
                                 {user && (
                                     <div className="card-overlay-actions">
-                                        <button 
+                                        <button
                                             className={`card-action-btn ${isLiked ? 'liked' : ''}`}
                                             onClick={(e) => {
                                                 e.stopPropagation();
@@ -95,7 +95,7 @@ const MovieGrid = ({ movies, setSearchTerm, onCardClick }) => {
                                         >
                                             {isLiked ? '❤️' : '🤍'}
                                         </button>
-                                        <button 
+                                        <button
                                             className={`card-action-btn ${isWatchlisted ? 'saved' : ''}`}
                                             onClick={(e) => {
                                                 e.stopPropagation();
